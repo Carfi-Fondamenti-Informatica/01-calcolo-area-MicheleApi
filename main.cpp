@@ -2,11 +2,16 @@
 using namespace std;
 
 int main(){
-//Qui vanno definite le variabili
+float a, b, c;//variabili
 
 cin >> a >> b >> c;
 
-//Qui va scritto il codice per eseguire i calcoli richiesti
+cin >>a>>b>>c;//input
 
+cout<<0.5*a*b<<endl;//area triangolo
+cout<<a*a<<endl;//area quadrato
+cout<<a*b<<endl;//area rettangolo
+cout<<0.5*(a+b)*c<<endl;//area trapezio
+return 0;
 
 }
